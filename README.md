@@ -13,8 +13,8 @@ Everything is configurable from [Config.java](/sample-event-logging-library/src/
 "backend" is in a file called api.php. It will return 200 OK with a 20% chance of 400 Bad Request in which case the client will have to retry later.
 
 For library project:
-⋅⋅1 TODO: location service is not fully functional, we are not getting enough location updates which can cause log events with no location. (current fallback for this is setting limit of tries to get location for each log event)
-⋅⋅2 TODO: handle no connection -> in case of no connection there is no point to initiate logs sync request
-⋅⋅3 TODO: handle no location permission situation (dialogs for asking permission)
-⋅⋅4 TODO: look over the handler logic for time interval -> maybe support JobScheduler as much as possible?
-⋅⋅5 TODO: Service can be improved, on some Android versions service might be killed and STICKY flag will not restart it(currently the service is not made as sticky) -> it has to be made persistant with AlarmManager.
+  1. TODO: location service is not fully functional, we are not getting enough location updates which can cause log events with no location. (current fallback for this is setting limit of tries to get location for each log event)
+  2. TODO: handle no connection -> in case of no connection there is no point to initiate logs sync request
+  3. TODO: handle no location permission situation (dialogs for asking permission)
+  4. TODO: look over the handler logic for time interval -> maybe support JobScheduler as much as possible?
+  5. TODO: Service can be improved, on some Android versions service might be killed and STICKY flag will not restart it(currently the service is not made as sticky) -> it has to be made persistant with AlarmManager.
