@@ -10,7 +10,7 @@ Log events as such are holding "type", "comment", "timestamp", "location" (if av
 
 Log events are uploaded to the backend  when the soft limit for events is reached (>100 events are waiting to be uploaded to the server) or if the time interval exceeds 15 minutes. Location updates accuracy is set to < 50m and updates if the location has changed more than 5 meters. Location updates minimal time is set to 60 seconds.
 
-Everything is configurable from [Config.java](/sample-event-logging-library/src/main/java/mobi/lab/sample_event_logging_library/Config.java) sitting in the "sample-event-logging-library" library
+Everything is configurable from [Config.java](/sample-event-logging-library/src/main/java/mobi/lab/sample_event_logging_library/Config.java) sitting in the "__sample-event-logging-library__" library
 
 __"backend"__ is in a file called api.php. It will return 200 OK with a 20% chance of 400 Bad Request in which case the client will have to retry later.
 
