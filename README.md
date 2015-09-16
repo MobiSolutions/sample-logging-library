@@ -9,6 +9,7 @@ is the library project which will take care of the logs
 Log events as such are holding "type", "comment", "timestamp", "location" (if available)
 
 Log events are uploaded to the backend  when the soft limit for events is reached (>100 events are waiting to be uploaded to the server) or if the time interval exceeds 15 minutes. Location updates accuracy is set to < 50m and updates if the location has changed more than 5 meters. Location updates minimal time is set to 60 seconds.
+In case of any failures the logs will be put back to the queue.
 
 Everything is configurable from [Config.java](/sample-event-logging-library/src/main/java/mobi/lab/sample_event_logging_library/Config.java) sitting in the "__sample-event-logging-library__" library
 
