@@ -33,7 +33,7 @@ public class Config {
     /**
      * Update interval in milliseconds
      */
-    public static final long LOCATION_UPDATES_MIN_TIME = 3l * 1000l; // milliseconds
+    public static final long LOCATION_UPDATES_MIN_TIME = 60l * 1000l; // milliseconds
     /**
      * Location difference in meters to trigger a location update
      */
