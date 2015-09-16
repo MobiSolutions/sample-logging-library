@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">sample-logging-library</string>
+    <string name="label_log_btn">Let\'s log [log counter: %1$d]</string>
+    <string name="action_settings">Settings</string>
+</resources>

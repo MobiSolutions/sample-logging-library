@@ -1,0 +1,1 @@
+include ':sample-android-app', ':sample-event-logging-library'

@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mobi.lab.sample_event_logging_library">
+
+    <!-- Used by event logging system to post logs to web backend -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Used by event logging system to add location to log events -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application android:allowBackup="true" android:label="@string/app_name">
+
+    </application>
+
+</manifest>
